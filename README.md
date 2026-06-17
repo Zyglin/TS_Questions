@@ -546,44 +546,6 @@ interface User {
 
 ---
 
-# arrays
-
-Массивы:
-
-```typescript
-let numbers: number[] = [
-    1,
-    2,
-    3
-];
-```
-
-или:
-
-```typescript
-let numbers: Array<number>;
-```
-
----
-
-# tuples
-
-Кортеж — массив фиксированной длины с определенными типами.
-
-```typescript
-let user: [
-    string,
-    number
-];
-
-user = [
-    "John",
-    25
-];
-```
-
----
-
 # Специальные типы any и unknown
 
 TypeScript имеет специальные типы для случаев, когда тип неизвестен.
